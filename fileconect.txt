@@ -1,0 +1,4 @@
+﻿<?php 
+	$conn = mysqli_connect ("mysql.hostinger.vn","u996751367_data","quang@123","u996751367_user") or die ('Không thể kết nối cơ sở dữ liệu');
+	mysqli_set_charset($conn,"utf8");
+?>
